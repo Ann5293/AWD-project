@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <member id="a">
+    <email>a@gmail.com</email>
+    <password>123</password>
+    </member>
+<member id="lala"><email>lala@gmail.com</email><password>123</password></member></users>

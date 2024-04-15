@@ -1,0 +1,329 @@
+/*--------------------------------------------------------------
+  Template Name: Tmart-Minimalist eCommerce HTML5 Template.
+  Template URI: #
+  Description: Tmart is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: Theme365
+  Version: 1.0
+---------------------------------------------------------------*/
+
+/* ----------------------------------------------------
+	You can put your custom css code here: 
+-------------------------------------------------------*/
+
+/* led by Transparency */
+.heading-wrapper-centered {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-bottom: 3.5em;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.grid-4-column {
+  justify-items: center;
+  grid-column-gap: 1em;
+  grid-row-gap: 0.2em;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.feature-wrapper {
+  text-align: center;
+}
+
+.feature-image {
+  margin-bottom: 1em;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: .25em;
+  font-family: 'Tiempos fine web','Times New Roman',sans-serif;
+  font-size: 1.75em;
+  line-height: 140%;
+  font-weight: 200;
+} 
+
+/*Inspiration*/
+.flex-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -5px;
+  margin-bottom: 200px;
+}
+
+.inner-spacing {
+  padding-right: 5em;
+  padding-left: 5em;
+}
+
+.inner-padding-right {
+  padding-right: 5em;
+}
+
+.column-50 {
+  position: relative;
+  width: 50%;
+}
+
+.sticky-section {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+}
+
+.all-caps {
+  padding-bottom: .5em;
+  font-size: .875em;
+}
+
+h3{
+  margin: 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-family: 'Tiempos fine web','Times New Roman',sans-serif;
+  font-size: 50px;
+  line-height: 120%;
+  font-weight: 300;
+}
+
+.image-cover {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+p1 {
+  margin-top: 10px;
+  margin-bottom: 1em;
+  color: rgba(33,40,6,.8);
+  font-size: 16px;
+  line-height: 160%;
+}
+
+/*FAQ */
+.section.no-margin-top {
+  padding-top: 0;
+}
+.submenu-section.top-70 {
+  top: 70px;
+  z-index: 980;
+}
+
+h7 {
+  margin: 0 0 .25em;
+  font-family: 'Tiempos fine web','Times New Roman',sans-serif;
+  font-size: 50px;
+}
+
+.feature-paragraph {
+  font-size: 18px;
+  text-align: center;
+  background-color: white;
+}
+
+.inline-link {
+  color: #a65f11;
+  font-weight: 500;
+}
+
+a1 {
+  background-color: transparent;
+  color: rgba(33,40,6,.8);
+  text-decoration: underline;
+}
+
+.divider.height-6-5 {
+  height: 6.5em;
+}
+
+.flex-wrapper.top-align {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.w-richtext {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.faq-image-wrapper {
+  position: relative;
+  top: 0;
+  height: 70vh;
+  padding-left: 5em;
+  text-align: right;
+}
+
+.faq-image-1 {
+  width: 90%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.faq-image-2 {
+  position: absolute;
+  left: 0;
+  top: auto;
+  right: auto;
+  bottom: -5%;
+  width: 45%;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.flex-wrapper.top-align {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.flex-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.divider.height-6-5 {
+  height: 6.5em;
+}
+
+section.margin-bottom-9-5 {
+  padding-bottom: 9.5em;
+}
+
+.centered {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.width-70 {
+  width: 70%;
+}
+
+#wrap div div div div img { cursor:pointer;}
+
+.ht__wrap {
+    align-items: center;
+    display: flex;
+    height: 220px;
+}
+
+img#cart
+{ 
+	bottom:0px;position:fixed; margin-left:30px; /* keep the bar on top  */
+}
+
+.cart-total{ background:#E8E8E8}
+
+.shopp,.cart-total{ 
+	border:solid #ccc 1px; padding:8px; 
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px; font-size:12px;
+	background:url(remove.png) center right no-repeat 5px;
+	border-radius: 10px; 
+	font-family:"LubalGraphBdBTBold",Tahoma; 
+	margin-bottom:3px;
+	width:260px;
+	}
+	
+div.shopp span{  float:left;}	
+div.shopp div.label{ width:130px; float:left; }		
+div.shopp div.shopp-price{ width:70px; float:left;}
+.quantity{ float:left; margin-top:-3px; width:20px;}
+img.remove{float:right;cursor:pointer;}
+.cart-total b{width:130px;}
+
+.btnCO{
+    color: white;
+    background-color: goldenrod;
+    padding: 10px;
+    border: medium none;
+    border-radius: 10px;
+    float: right;
+}
+
+/* Profile page */
+.profilebody{
+  margin-top:20px;
+  color: #1a202c;
+  text-align: left;
+  background-color: #e2e8f0;    
+}
+.main-body {
+  padding: 15px;
+  
+}
+.card {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1rem;
+}
+
+.gutters-sm {
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+.gutters-sm>.col, .gutters-sm>[class*=col-] {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.mb-3, .my-3 {
+  margin-bottom: 20px!important;
+}
+
+.bg-gray-300 {
+  background-color: #e2f0e4;
+}
+.h-100 {
+  height: 100%!important;
+}
+.shadow-none {
+  box-shadow: none!important;
+}
